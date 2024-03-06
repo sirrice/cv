@@ -7,16 +7,18 @@ Setup
 
     pip install click
 
-Run
+Edit [pubs.yml](./pubs.yml) with your papers.  Then generate [pubs.tex](pubs.tex)
 
-    # generates cv.pdf
+    python genpubs.py -a pubs.yml > pubs.tex
+
+
+Generate CV
+
+    # include all content
     make
 
-
-    # strips out all lines prefixed with '##' in money.tex and teaching.tex
+    # strip out all lines prefixed with '##' in money.tex and teaching.tex
     make public=1
 
 
-I wrote a short python script to auto-generate the contents of `pubs.tex` so it has the same
-formatting as the rest of the CV.
 

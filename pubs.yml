@@ -1,0 +1,27 @@
+# The following are required
+#
+# - authors: first author, super man
+#   conf: SIGMOD 2016
+#   title: Title of the paper
+#
+# The following are optional
+#
+#   comments: any comments
+#   short: true
+#   future: working papers
+#   key: custom bibtex key when generated bibtex using genpubs
+#   citations: a number
+#   rate: acceptance rate of conference
+#
+#
+- title: 'future paper title'
+  authors: student name, super man 
+  future: true
+  conf: SIGMOD 2024
+- title: "short paper title"
+  authors: bob dole, bill clinton, abe lincoln, super man
+  conf: Workshop at Conference 2023
+  short: true
+- title: "full paper title"
+  authors: bob dole, abe lincoln, super man
+  conf: Conference 2022
