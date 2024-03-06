@@ -1,6 +1,6 @@
 # CV template
 
-This repo contains scaffold to generate [eugene wu's](https://eugenewu.net) CV.
+This repo contains scaffold to generate [eugene wu's](https://eugenewu.net) [CV](http://eugenewu.net/files/statement/cv.pdf).
 
 
 Setup
