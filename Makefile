@@ -7,7 +7,7 @@ ifdef public
 else
 	python proc.py teaching.tex money.tex
 endif
-	latexrun cv
+	pdflatex cv
 	echo
 	echo
 	echo "use public=1 to strip private content"
